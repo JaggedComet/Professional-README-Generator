@@ -8,41 +8,49 @@ const init = () => {
                 type: 'input',
                 name: 'title',
                 message: 'What is the title of your project?',
+                default: "Will be added at a later date.",
             },
             {
                 type: 'input',
                 name: 'description',
                 message: 'Describe the functionality of your product (motivation, problem it solved, what did you learn).',
+                default: "Will be added at a later date.",
             },
             {
                 type: 'input',
                 name: 'installation',
                 message: 'What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.',
+                default: "Will be added at a later date.",
             },
             {
                 type: 'input',
                 name: 'usage',
                 message: 'What are the instructions and examples for use? Include screenshots as needed.',
+                default: "Will be added at a later date.",
             },
             {
                 type: 'input',
                 name: 'contribution',
                 message: 'List your collaborators if you had any.',
+                default: "There were no collaborators for this project",
             },
             {
                 type: 'input',
                 name: 'features',
                 message: 'What are the features in your project?',
+                default: "Will be added at a later date.",
             },
             {
                 type: 'input',
                 name: 'third',
                 message: 'If you would like anyone to contribute, please put how they can.',
+                default: "This project is not open to contributions from third parties."
             },
             {
                 type: 'input',
                 name: 'test',
                 message: 'If you have any tests for your application, put them here.',
+                default: "Will be added at a later date.",
             },
             {
                 type: "list",
@@ -70,11 +78,13 @@ const init = () => {
                 type: 'input',
                 name: 'github',
                 message: 'What is your github link?',
+                default: "Will be added at a later date.",
             },
             {
                 type: 'input',
                 name: 'email',
                 message: 'What is your email that developers can reach you at?',
+                default: "Will be added at a later date.",
             },
         ])
         .then(data => {

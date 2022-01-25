@@ -1,4 +1,4 @@
-const template = ({ description, installation, usage, contribution, license, features, third, tests, title }, badge) =>
+const template = ({ description, installation, usage, contribution, license, features, third, test, title, github, email }, badge) =>
 
 `# ${title}
 ${badge}
@@ -42,7 +42,11 @@ ${third}
 
 ## Tests
 
-${tests}
+${test}
+
+
+${github}
+${email}
 
 `
 
