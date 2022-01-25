@@ -42,7 +42,7 @@ This project is not open to contributions from third parties.
 
 ## Tests
 
-Will be added at a later date.
+https://watch.screencastify.com/v/K9fJECsUQT0VSQsf8u5w
 
 https://github.com/JaggedComet
 
