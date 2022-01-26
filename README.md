@@ -44,6 +44,8 @@ This project is not open to contributions from third parties.
 
 Will be added at a later date.
 
+## Creator Information
+
 https://github.com/JaggedComet
 
 MarcoFlores1029@gmail.com
